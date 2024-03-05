@@ -17,6 +17,8 @@
 		78EC50562B976E7800BF4766 /* Photos_EditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC50552B976E7800BF4766 /* Photos_EditorUITests.swift */; };
 		78EC50582B976E7800BF4766 /* Photos_EditorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC50572B976E7800BF4766 /* Photos_EditorUITestsLaunchTests.swift */; };
 		78EC50652B976F8600BF4766 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC50642B976F8600BF4766 /* ImagePicker.swift */; };
+		78EC50682B97756300BF4766 /* Editor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78EC50672B97756300BF4766 /* Editor.storyboard */; };
+		78EC506A2B97759400BF4766 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC50692B97759400BF4766 /* EditorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		78EC50552B976E7800BF4766 /* Photos_EditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos_EditorUITests.swift; sourceTree = "<group>"; };
 		78EC50572B976E7800BF4766 /* Photos_EditorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos_EditorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		78EC50642B976F8600BF4766 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		78EC50672B97756300BF4766 /* Editor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Editor.storyboard; sourceTree = "<group>"; };
+		78EC50692B97759400BF4766 /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		78EC50332B976E7600BF4766 /* Photos Editor */ = {
 			isa = PBXGroup;
 			children = (
+				78EC50662B97754900BF4766 /* Editor */,
 				78EC50342B976E7600BF4766 /* AppDelegate.swift */,
 				78EC50362B976E7600BF4766 /* SceneDelegate.swift */,
 				78EC50382B976E7600BF4766 /* ViewController.swift */,
@@ -128,6 +133,15 @@
 				78EC50572B976E7800BF4766 /* Photos_EditorUITestsLaunchTests.swift */,
 			);
 			path = "Photos EditorUITests";
+			sourceTree = "<group>";
+		};
+		78EC50662B97754900BF4766 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				78EC50672B97756300BF4766 /* Editor.storyboard */,
+				78EC50692B97759400BF4766 /* EditorViewController.swift */,
+			);
+			path = Editor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +251,7 @@
 				78EC50412B976E7800BF4766 /* LaunchScreen.storyboard in Resources */,
 				78EC503E2B976E7800BF4766 /* Assets.xcassets in Resources */,
 				78EC503C2B976E7600BF4766 /* Main.storyboard in Resources */,
+				78EC50682B97756300BF4766 /* Editor.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +279,7 @@
 				78EC50392B976E7600BF4766 /* ViewController.swift in Sources */,
 				78EC50652B976F8600BF4766 /* ImagePicker.swift in Sources */,
 				78EC50352B976E7600BF4766 /* AppDelegate.swift in Sources */,
+				78EC506A2B97759400BF4766 /* EditorViewController.swift in Sources */,
 				78EC50372B976E7600BF4766 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
