@@ -16,6 +16,7 @@
 		78EC504C2B976E7800BF4766 /* Photos_EditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC504B2B976E7800BF4766 /* Photos_EditorTests.swift */; };
 		78EC50562B976E7800BF4766 /* Photos_EditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC50552B976E7800BF4766 /* Photos_EditorUITests.swift */; };
 		78EC50582B976E7800BF4766 /* Photos_EditorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC50572B976E7800BF4766 /* Photos_EditorUITestsLaunchTests.swift */; };
+		78EC50652B976F8600BF4766 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC50642B976F8600BF4766 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		78EC50512B976E7800BF4766 /* Photos EditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photos EditorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78EC50552B976E7800BF4766 /* Photos_EditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos_EditorUITests.swift; sourceTree = "<group>"; };
 		78EC50572B976E7800BF4766 /* Photos_EditorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos_EditorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78EC50642B976F8600BF4766 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				78EC50342B976E7600BF4766 /* AppDelegate.swift */,
 				78EC50362B976E7600BF4766 /* SceneDelegate.swift */,
 				78EC50382B976E7600BF4766 /* ViewController.swift */,
+				78EC50642B976F8600BF4766 /* ImagePicker.swift */,
 				78EC503A2B976E7600BF4766 /* Main.storyboard */,
 				78EC503D2B976E7800BF4766 /* Assets.xcassets */,
 				78EC503F2B976E7800BF4766 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78EC50392B976E7600BF4766 /* ViewController.swift in Sources */,
+				78EC50652B976F8600BF4766 /* ImagePicker.swift in Sources */,
 				78EC50352B976E7600BF4766 /* AppDelegate.swift in Sources */,
 				78EC50372B976E7600BF4766 /* SceneDelegate.swift in Sources */,
 			);
