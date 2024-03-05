@@ -19,6 +19,7 @@
 		78EC50652B976F8600BF4766 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC50642B976F8600BF4766 /* ImagePicker.swift */; };
 		78EC50682B97756300BF4766 /* Editor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78EC50672B97756300BF4766 /* Editor.storyboard */; };
 		78EC506A2B97759400BF4766 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC50692B97759400BF4766 /* EditorViewController.swift */; };
+		78EC506C2B97825300BF4766 /* UIColor+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC506B2B97825300BF4766 /* UIColor+Extra.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		78EC50642B976F8600BF4766 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		78EC50672B97756300BF4766 /* Editor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Editor.storyboard; sourceTree = "<group>"; };
 		78EC50692B97759400BF4766 /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		78EC506B2B97825300BF4766 /* UIColor+Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extra.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				78EC503D2B976E7800BF4766 /* Assets.xcassets */,
 				78EC503F2B976E7800BF4766 /* LaunchScreen.storyboard */,
 				78EC50422B976E7800BF4766 /* Info.plist */,
+				78EC506B2B97825300BF4766 /* UIColor+Extra.swift */,
 			);
 			path = "Photos Editor";
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				78EC50652B976F8600BF4766 /* ImagePicker.swift in Sources */,
 				78EC50352B976E7600BF4766 /* AppDelegate.swift in Sources */,
 				78EC506A2B97759400BF4766 /* EditorViewController.swift in Sources */,
+				78EC506C2B97825300BF4766 /* UIColor+Extra.swift in Sources */,
 				78EC50372B976E7600BF4766 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
